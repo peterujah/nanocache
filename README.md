@@ -55,6 +55,13 @@ nql.find("list").in("Peoples", function(i){
     console.log("Data", i);
 });
 ```
+
+Dump all records in `Users` table
+```js
+sql.get("Users", function(caches){
+    console.log("Caches", caches);
+});
+```
     
 Delete key `key` from `Users` table    
 
